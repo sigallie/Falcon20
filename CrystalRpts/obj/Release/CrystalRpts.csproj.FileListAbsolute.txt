@@ -1,0 +1,12 @@
+C:\gibs\projects\Falcon20DemoBancABC\CrystalRpts\bin\Release\CrystalRpts.dll
+C:\gibs\projects\Falcon20DemoBancABC\CrystalRpts\bin\Release\CrystalRpts.pdb
+C:\gibs\projects\Falcon20DemoBancABC\CrystalRpts\bin\Release\GenLib.dll
+C:\gibs\projects\Falcon20DemoBancABC\CrystalRpts\bin\Release\LumenWorks.Framework.IO.dll
+C:\gibs\projects\Falcon20DemoBancABC\CrystalRpts\bin\Release\GenLib.pdb
+C:\gibs\projects\Falcon20DemoBancABC\CrystalRpts\bin\Release\LumenWorks.Framework.IO.pdb
+C:\gibs\projects\Falcon20DemoBancABC\CrystalRpts\bin\Release\LumenWorks.Framework.IO.xml
+C:\gibs\projects\Falcon20DemoBancABC\CrystalRpts\obj\Release\CrystalRpts.csprojResolveAssemblyReference.cache
+C:\gibs\projects\Falcon20DemoBancABC\CrystalRpts\obj\Release\CrystalRpts.CrystalForm.resources
+C:\gibs\projects\Falcon20DemoBancABC\CrystalRpts\obj\Release\CrystalRpts.csproj.GenerateResource.Cache
+C:\gibs\projects\Falcon20DemoBancABC\CrystalRpts\obj\Release\CrystalRpts.dll
+C:\gibs\projects\Falcon20DemoBancABC\CrystalRpts\obj\Release\CrystalRpts.pdb

@@ -1,0 +1,15 @@
+C:\gibs\projects\CompuTracker\DBUtils\bin\x86\Debug\DBUtils.dll
+C:\gibs\projects\CompuTracker\DBUtils\bin\x86\Debug\DBUtils.pdb
+C:\gibs\projects\CompuTracker_Backup\DBUtils\bin\x86\Debug\DBUtils.dll
+C:\gibs\projects\CompuTracker_Backup\DBUtils\bin\x86\Debug\DBUtils.pdb
+C:\gibs\projects\CompuTracker_Backup\DBUtils\obj\x86\Debug\DBUtils.csprojResolveAssemblyReference.cache
+C:\gibs\projects\CompuTracker_Backup\DBUtils\obj\x86\Debug\DBUtils.dll
+C:\gibs\projects\CompuTracker_Backup\DBUtils\obj\x86\Debug\DBUtils.pdb
+C:\gibs\projects\CompuTracker\DBUtils\bin\Debug\DBUtils.dll
+C:\gibs\projects\CompuTracker\DBUtils\bin\Debug\DBUtils.pdb
+C:\gibs\projects\CompuTracker\DBUtils\obj\x86\Debug\DBUtils.dll
+C:\gibs\projects\CompuTracker\DBUtils\obj\x86\Debug\DBUtils.pdb
+C:\gibs\Workbench\2019\Falcon20\DBUtils\bin\Debug\DBUtils.dll
+C:\gibs\Workbench\2019\Falcon20\DBUtils\bin\Debug\DBUtils.pdb
+C:\gibs\Workbench\2019\Falcon20\DBUtils\obj\x86\Debug\DBUtils.dll
+C:\gibs\Workbench\2019\Falcon20\DBUtils\obj\x86\Debug\DBUtils.pdb

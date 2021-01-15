@@ -1,0 +1,10 @@
+C:\gibs\projects\Falcon20DemoBancABC\FalconLib\bin\Release\FalconLib.dll
+C:\gibs\projects\Falcon20DemoBancABC\FalconLib\bin\Release\FalconLib.pdb
+C:\gibs\projects\Falcon20DemoBancABC\FalconLib\bin\Release\DBUtils.dll
+C:\gibs\projects\Falcon20DemoBancABC\FalconLib\bin\Release\LumenWorks.Framework.IO.dll
+C:\gibs\projects\Falcon20DemoBancABC\FalconLib\bin\Release\DBUtils.pdb
+C:\gibs\projects\Falcon20DemoBancABC\FalconLib\bin\Release\LumenWorks.Framework.IO.pdb
+C:\gibs\projects\Falcon20DemoBancABC\FalconLib\bin\Release\LumenWorks.Framework.IO.xml
+C:\gibs\projects\Falcon20DemoBancABC\FalconLib\obj\Release\FalconLib.csprojResolveAssemblyReference.cache
+C:\gibs\projects\Falcon20DemoBancABC\FalconLib\obj\Release\FalconLib.dll
+C:\gibs\projects\Falcon20DemoBancABC\FalconLib\obj\Release\FalconLib.pdb

@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0EF15190-C52E-40BD-8A7B-7031897FE73F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ViewReports</RootNamespace>
+    <AssemblyName>ViewReports</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.DataAccess.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpo.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="LumenWorks.Framework.IO">
+      <HintPath>..\packages\LumenWorksCsvReader.4.0.0\lib\net45\LumenWorks.Framework.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Balances.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Balances.Designer.cs">
+      <DependentUpon>Balances.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BNOTE.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BNOTE.Designer.cs">
+      <DependentUpon>BNOTE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CashBook.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CashBook.Designer.cs">
+      <DependentUpon>CashBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="classViewReports.cs" />
+    <Compile Include="ConsildatedCharges.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ConsildatedCharges.Designer.cs">
+      <DependentUpon>ConsildatedCharges.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LedgerReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LedgerReport.Designer.cs">
+      <DependentUpon>LedgerReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PeymentRequisition.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PeymentRequisition.Designer.cs">
+      <DependentUpon>PeymentRequisition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Receipt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Receipt.Designer.cs">
+      <DependentUpon>Receipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SNOTE.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SNOTE.Designer.cs">
+      <DependentUpon>SNOTE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SNOTEr.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SNOTEr.Designer.cs">
+      <DependentUpon>SNOTEr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StatementReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StatementReport.Designer.cs">
+      <DependentUpon>StatementReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TopTradersCommission.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TopTradersCommission.Designer.cs">
+      <DependentUpon>TopTradersCommission.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TopTradersVolume.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TopTradersVolume.Designer.cs">
+      <DependentUpon>TopTradersVolume.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TradingBook.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TradingBook.Designer.cs">
+      <DependentUpon>TradingBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TradingSummary.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TradingSummary.Designer.cs">
+      <DependentUpon>TradingSummary.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Balances.resx">
+      <DependentUpon>Balances.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BNOTE.resx">
+      <DependentUpon>BNOTE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashBook.resx">
+      <DependentUpon>CashBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsildatedCharges.resx">
+      <DependentUpon>ConsildatedCharges.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LedgerReport.resx">
+      <DependentUpon>LedgerReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PeymentRequisition.resx">
+      <DependentUpon>PeymentRequisition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Receipt.resx">
+      <DependentUpon>Receipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SNOTE.resx">
+      <DependentUpon>SNOTE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SNOTEr.resx">
+      <DependentUpon>SNOTEr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatementReport.resx">
+      <DependentUpon>StatementReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TopTradersCommission.resx">
+      <DependentUpon>TopTradersCommission.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TopTradersVolume.resx">
+      <DependentUpon>TopTradersVolume.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradingBook.resx">
+      <DependentUpon>TradingBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradingSummary.resx">
+      <DependentUpon>TradingSummary.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DBUtils\DBUtils.csproj">
+      <Project>{fb6a7112-978c-4fbd-a8a1-0dac8ff50964}</Project>
+      <Name>DBUtils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GenLib\GenLib.csproj">
+      <Project>{edd120ed-3410-4a6b-8c51-2b32d3e55c55}</Project>
+      <Name>GenLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

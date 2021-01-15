@@ -1,0 +1,9 @@
+
+cols missing from trading summary report
+SEC Levy
+Deal Date
+Commission
+
+
+trading summary report
+Client, dno, ddate, asset, price, qty, cons, commission, sduty, zse, sec, cgt, ipl, vat

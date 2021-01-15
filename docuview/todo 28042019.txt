@@ -1,0 +1,10 @@
+cutoff date for tax payments - d
+no approval for payments and receipts - d
+
+new client -d
+user administration - d
+
+
+PROCESS RECEIPT - d
+
+sign on tax payment amount on ledger account statement (should be negative)- p

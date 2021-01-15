@@ -1,0 +1,7 @@
+email in new client - lowercase
+sector in new client - uppercase
+reports - DevExpress.XtraTreeList.v15.2, DevExpress.Xpo.15.2
+client trades - display client name in text box after client selection
+
+
+alter table clients add Custodial bit not null default(0)

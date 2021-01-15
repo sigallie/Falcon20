@@ -1,0 +1,6 @@
+new tax payment - flag as nonreceipt in Requisitions table d
+transaction approval - flag as approved in Requisitions table d
+reload unapproved requisitions d
+review approved transactions d
+new client function p
+tax payment txn not showing on ledger statement d

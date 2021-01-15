@@ -1,0 +1,17 @@
+C:\gibs\projects\Falcon20DemoBancABC\Clients\bin\Release\Clients.dll
+C:\gibs\projects\Falcon20DemoBancABC\Clients\bin\Release\Clients.pdb
+C:\gibs\projects\Falcon20DemoBancABC\Clients\bin\Release\DBUtils.dll
+C:\gibs\projects\Falcon20DemoBancABC\Clients\bin\Release\GenLib.dll
+C:\gibs\projects\Falcon20DemoBancABC\Clients\bin\Release\LumenWorks.Framework.IO.dll
+C:\gibs\projects\Falcon20DemoBancABC\Clients\bin\Release\DBUtils.pdb
+C:\gibs\projects\Falcon20DemoBancABC\Clients\bin\Release\GenLib.pdb
+C:\gibs\projects\Falcon20DemoBancABC\Clients\bin\Release\LumenWorks.Framework.IO.pdb
+C:\gibs\projects\Falcon20DemoBancABC\Clients\bin\Release\LumenWorks.Framework.IO.xml
+C:\gibs\projects\Falcon20DemoBancABC\Clients\obj\Release\Clients.csprojResolveAssemblyReference.cache
+C:\gibs\projects\Falcon20DemoBancABC\Clients\obj\Release\Clients.ClientListing.resources
+C:\gibs\projects\Falcon20DemoBancABC\Clients\obj\Release\Clients.NewClient.resources
+C:\gibs\projects\Falcon20DemoBancABC\Clients\obj\Release\Clients.Properties.Resources.resources
+C:\gibs\projects\Falcon20DemoBancABC\Clients\obj\Release\Clients.csproj.GenerateResource.Cache
+C:\gibs\projects\Falcon20DemoBancABC\Clients\obj\Release\Clients.dll.licenses
+C:\gibs\projects\Falcon20DemoBancABC\Clients\obj\Release\Clients.dll
+C:\gibs\projects\Falcon20DemoBancABC\Clients\obj\Release\Clients.pdb

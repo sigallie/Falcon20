@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FalconLib.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:FalconLib.Fakes.ShimBusLib">
+            <summary>Shim type of FalconLib.BusLib</summary>
+        </member>
+        <member name="M:FalconLib.Fakes.ShimBusLib.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FalconLib.Fakes.ShimBusLib.#ctor(FalconLib.BusLib)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:FalconLib.Fakes.ShimBusLib.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FalconLib.Fakes.ShimBusLib.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FalconLib.Fakes.ShimBusLib.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FalconLib.Fakes.ShimBusLib.CalculateCSDLevyDoubleDouble">
+            <summary>Sets the shim of BusLib.CalculateCSDLevy(Double Consideration, Double Rate)</summary>
+        </member>
+        <member name="P:FalconLib.Fakes.ShimBusLib.CalculateCapitalGainsDoubleDouble">
+            <summary>Sets the shim of BusLib.CalculateCapitalGains(Double Consideration, Double Rate)</summary>
+        </member>
+        <member name="P:FalconLib.Fakes.ShimBusLib.CalculateCommissionDoubleDouble">
+            <summary>Sets the shim of BusLib.CalculateCommission(Double Consideration, Double Rate)</summary>
+        </member>
+        <member name="P:FalconLib.Fakes.ShimBusLib.CalculateConsiderationDoubleDouble">
+            <summary>Sets the shim of BusLib.CalculateConsideration(Double Qty, Double Price)</summary>
+        </member>
+        <member name="P:FalconLib.Fakes.ShimBusLib.CalculateInvestorProtectionDoubleDouble">
+            <summary>Sets the shim of BusLib.CalculateInvestorProtection(Double Consideration, Double Rate)</summary>
+        </member>
+        <member name="P:FalconLib.Fakes.ShimBusLib.CalculateSecLevyDoubleDouble">
+            <summary>Sets the shim of BusLib.CalculateSecLevy(Double Consideration, Double Rate)</summary>
+        </member>
+        <member name="P:FalconLib.Fakes.ShimBusLib.CalculateStampDutyDoubleDouble">
+            <summary>Sets the shim of BusLib.CalculateStampDuty(Double Consideration, Double Rate)</summary>
+        </member>
+        <member name="P:FalconLib.Fakes.ShimBusLib.CalculateVATDoubleDouble">
+            <summary>Sets the shim of BusLib.CalculateVAT(Double Amount, Double Rate)</summary>
+        </member>
+        <member name="P:FalconLib.Fakes.ShimBusLib.CalculateZSELevyDoubleDouble">
+            <summary>Sets the shim of BusLib.CalculateZSELevy(Double Consideration, Double Rate)</summary>
+        </member>
+        <member name="P:FalconLib.Fakes.ShimBusLib.Constructor">
+            <summary>Sets the shim of BusLib.BusLib()</summary>
+        </member>
+        <member name="P:FalconLib.Fakes.ShimBusLib.HasAccessStringString">
+            <summary>Sets the shim of BusLib.HasAccess(String CurrentUser, String Process)</summary>
+        </member>
+        <member name="P:FalconLib.Fakes.ShimBusLib.IsDealScripSettledString">
+            <summary>Sets the shim of BusLib.IsDealScripSettled(String dealno)</summary>
+        </member>
+        <member name="P:FalconLib.Fakes.ShimBusLib.IsNumericString">
+            <summary>Sets the shim of BusLib.IsNumeric(String Text)</summary>
+        </member>
+        <member name="P:FalconLib.Fakes.ShimBusLib.IsPeriodLockedDateTime">
+            <summary>Sets the shim of BusLib.IsPeriodLocked(DateTime TransDate)</summary>
+        </member>
+        <member name="P:FalconLib.Fakes.ShimBusLib.ProperCaseString">
+            <summary>Sets the shim of BusLib.ProperCase(String stringInput)</summary>
+        </member>
+        <member name="P:FalconLib.Fakes.ShimBusLib.SendEmailStringStringStringStringString">
+            <summary>Sets the shim of BusLib.SendEmail(String FromAdd, String ToAdd, String Subject, String BodyText, String Attachment)</summary>
+        </member>
+        <member name="P:FalconLib.Fakes.ShimBusLib.TimeoutUsersStringBooleanString">
+            <summary>Sets the shim of BusLib.TimeoutUsers(String username, Boolean timeout, String window)</summary>
+        </member>
+        <member name="T:FalconLib.Fakes.ShimBusLib.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:FalconLib.Fakes.StubBusLib">
+            <summary>Stub type of FalconLib.BusLib</summary>
+        </member>
+        <member name="M:FalconLib.Fakes.StubBusLib.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:FalconLib.Fakes.StubBusLib.InitializeStub">
+            <summary>Initializes a new instance of type StubBusLib</summary>
+        </member>
+        <member name="P:FalconLib.Fakes.StubBusLib.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:FalconLib.Fakes.StubBusLib.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FalconLib.Fakes.StubBusLib.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

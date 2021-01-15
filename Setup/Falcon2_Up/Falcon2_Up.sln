@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "Falcon2_Up", "Falcon2_Up\Falcon2_Up.isproj", "{B66B3687-57C4-496C-8CBA-07777941CA44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Default = CD_ROM|Default
+		DVD-5|Default = DVD-5|Default
+		SingleImage|Default = SingleImage|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B66B3687-57C4-496C-8CBA-07777941CA44}.CD_ROM|Default.ActiveCfg = CD_ROM
+		{B66B3687-57C4-496C-8CBA-07777941CA44}.CD_ROM|Default.Build.0 = CD_ROM
+		{B66B3687-57C4-496C-8CBA-07777941CA44}.DVD-5|Default.ActiveCfg = DVD-5
+		{B66B3687-57C4-496C-8CBA-07777941CA44}.DVD-5|Default.Build.0 = DVD-5
+		{B66B3687-57C4-496C-8CBA-07777941CA44}.SingleImage|Default.ActiveCfg = SingleImage
+		{B66B3687-57C4-496C-8CBA-07777941CA44}.SingleImage|Default.Build.0 = SingleImage
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
